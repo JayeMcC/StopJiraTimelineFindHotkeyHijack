@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Stop Jira Timeline Find Hotkey Hijack",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["*://*.atlassian.net/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
